@@ -1,0 +1,31 @@
+{
+  "data": {
+    "wanted": [
+      {
+        "id": "111",
+        "reason": "Jumping",
+        "createdAt": "2017-09-20T19:16:34.342Z",
+        "updatedAt": "2017-09-20T19:16:34.342Z"
+      }
+    ]
+  },
+  "schema": {
+    "wanted": {
+      "id": {
+        "type": "string"
+      },
+      "reason": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "wanted": {}
+  }
+}
